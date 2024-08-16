@@ -1,11 +1,19 @@
 {
   "files": {
+    "templates/application_submitted.html": [
+      {
+        "id": "200159fa-0bce-4391-86d8-192772e982d0",
+        "line": 23,
+        "version": 915,
+        "index": 452
+      }
+    ],
     "templates/jobitem.html": [
       {
         "id": "f7aa3d25-cc22-45e9-8237-43f0fba2ea3e",
-        "line": 5,
-        "version": 1,
-        "index": 190
+        "line": 4,
+        "version": 125,
+        "index": 168
       }
     ]
   }

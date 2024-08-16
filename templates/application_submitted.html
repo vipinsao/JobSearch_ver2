@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Application Submitted</title>
+  {% include 'bootstrap.html' %}
+  <style>
+    .full-height {
+        height: auto; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+    </style>
+</head>
+
+<body>
+  {% include 'nav.html' %}
+  {% include 'SubmittedTag.html' %}
+  <div class="container mt-4">
+    <h4 class="text-center mt-2 mb-4">Your Application Submitted</h1>
+    <b>Full Name</b>
+    <div>{{application['full_name']}}</div>
+
+    <b>Email</b>
+    <div>{{application['email']}}</div>
+
+    <b>LinkedIN URL</b>
+    <div>{{application['linkedIn_url']}}</div>
+
+    <b>Education</b>
+    <div>{{application['Education']}}</div>
+
+    <b>Work Experience</b>
+    <div>{{application['work_experience']}}
+    </div>
+
+    <b>Resume URL</b>
+    <div>{{application['resume_url']}}</div>
+
+    <div class="container full-height">
+    <div class="col-2 text-center">
+      <a href="/" type="button" class="btn btn-outline-primary float-right align-middle">Finish</a>
+    </div>
+    </div>
+</body>
+
+</html>
