@@ -28,8 +28,7 @@ def show_job(id):
 def apply_to_job(id):
     data = request.form
     job = load_job_from_db(id)
-
-    add_application_to_db(id, data)
+    add_application_to_db(id,data)
     #store this in DB
     #send an email to the applicant
     #display an acknowledgement
